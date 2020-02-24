@@ -27,7 +27,7 @@ transform them with multiple different layers like `rotate`, `convert`, `filter`
 For CLI help:
 
 ```bash
-$ bin/proimage -h
+$ bin/progimage -h
 ProImage CLI. Runs `progimage` allows you to handle ProgImage features.
 
 Usage: progimage image_uuid [options]
