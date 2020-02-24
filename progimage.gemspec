@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{This Gem provides API access to ProgImage features}
   spec.description   = %q{ProImage Gem is providing full access to the ProImage Store and
-  ProgIamge transformation features by `lib` access or using the CLI executable.}
+  ProgImage transformation features by a CLI and the Gem}
   spec.homepage      = "https://github.com/gguerrero/progimage"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")

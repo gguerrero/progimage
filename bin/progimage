@@ -1,0 +1,16 @@
+#!/usr/bin/env ruby
+
+require 'bundler/setup'
+require 'progimage'
+require 'progimage/options'
+
+module Progimage
+  def self.run(argv)
+    options = Options.new(argv)
+    pp options
+  end
+end
+
+if __FILE__ == $0
+  Progimage.run(ARGV)
+end
